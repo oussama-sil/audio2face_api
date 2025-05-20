@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 # [project.urls]
-# Homepage = "https://github.com/pypa/sampleproject"
+# Homepage = "https://github.com/oussama-sil/audio2face_api"
 
 [build-system]
 requires = ["setuptools >= 77.0.3", "wheel"]
