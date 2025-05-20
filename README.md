@@ -1,6 +1,6 @@
-# audio2face_py
+# audio2face_api
 
-**audio2face_py** is a Python package providing an easy-to-use interface to the Headless Mode API of NVIDIA's Audio2Face. It supports two operational modes : **Direct** and **Stream**.
+**audio2face_api** is a Python package providing an easy-to-use interface to the Headless Mode API of NVIDIA's Audio2Face. It supports two operational modes : **Direct** and **Stream**.
 
 ## Features
 
@@ -27,7 +27,7 @@ In **Direct Mode** , the audio is processed as a whole, and the resulting blends
 #### Example
 
 ```python
-from audio2face_py import Audio2FaceDirect
+from audio2face_api import Audio2FaceDirect
 
 a2f = Audio2FaceDirect(
     api_url=API_URL,
@@ -64,7 +64,7 @@ In **Stream Mode** , audio is streamed chunk-by-chunk to Audio2Face, enabling re
 #### Example
 
 ```python
-from audio2face_py import Audio2FaceStream
+from audio2face_api import Audio2FaceStream
 import soundfile
 import json
 
