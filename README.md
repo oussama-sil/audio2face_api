@@ -15,7 +15,7 @@
 ## Installation
 
 ```bash
-pip install audio2face_py
+pip install git+https://github.com/oussama-sil/audio2face_api.git
 ```
 
 ## Usage
