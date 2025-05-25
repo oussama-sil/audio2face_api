@@ -24,7 +24,7 @@ pip install git+https://github.com/oussama-sil/audio2face_api.git
 
 In **Direct Mode** , the audio is processed as a whole, and the resulting blendshapes are exported as JSON files.
 
-#### Example
+#### Example (See .\tests\test_api.py)
 
 ```python
 from audio2face_api.A2F import Audio2FaceDirect
@@ -61,7 +61,7 @@ a2f.export_blendshapes(
 
 In **Stream Mode** , audio is streamed chunk-by-chunk to Audio2Face, enabling real-time playback and optional capture of generated frames using the LiveLink plugin.
 
-#### Example
+#### Example (See .\tests\test_api_stream.py)
 
 ```python
 from audio2face_api.A2F import Audio2FaceStream
