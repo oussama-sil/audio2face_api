@@ -68,11 +68,15 @@ from audio2face_api.A2F import Audio2FaceStream
 import soundfile
 import json
 
+API_URL = "http://localhost:8011"
+gRPC_URL = "localhost:50051"
+
+
 a2f = Audio2FaceStream(
     grpc_url=gRPC_URL,
     chunk_size=CHUNCK_SIZE,
     block_until_playback_is_finished=False,
-    use_livelink=True,  # Set to true to receive generated frames
+    use_livelink=True,  # Set to true to receive the generated frames
     api_url=API_URL,
     scene_path=scene_path,
     fps=FPS,
